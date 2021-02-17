@@ -2,7 +2,7 @@
 # tasks file for imagebuilder_boxfuse
 - name: Create build directory
   file:
-    path: '{{ dest_dockerfile_path }}'
+    path: '{{ dest_dockerfile_path }}/'
     state: directory
     owner: root
     group: root
