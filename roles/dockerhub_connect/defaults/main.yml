@@ -1,6 +1,7 @@
 ---
 # defaults file for dockerhub_connect
 # Dockerhub Repository Credentials
+dockerhub_email: pkhramchenkov@gmail.com
 dockerhub_user: mas0lik
 dockerhub_token: !vault |
   $ANSIBLE_VAULT;1.1;AES256
